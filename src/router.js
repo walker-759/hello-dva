@@ -8,6 +8,7 @@ import { Router, Route, Switch } from 'dva/router';
 import Test from './routes/Test'
 import Test2 from './routes/Test2'
 
+// 需要返回一个路由配置函数，这样就可以使用路由了
 function RouterConfig({ history, app }) {
   return (
     <Router history={history}>

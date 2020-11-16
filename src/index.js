@@ -1,10 +1,11 @@
 // 导入dva
 import dva from 'dva';
-import './index.css';
+// import './index.css';
 // 导入创建BrowserHistory的函数
 import { createBrowserHistory as createHistory } from 'history';
+// dva中显示加载中的包
 import createLoading from 'dva-loading';
-import { createLogger } from 'redux-logger';
+// import { createLogger } from 'redux-logger';
 
 const logger = store => next => action => {
   // console.log('dispatching', action);

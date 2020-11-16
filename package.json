@@ -10,6 +10,7 @@
     "axios": "^0.18.0",
     "dva": "^2.3.1",
     "dva-loading": "^2.0.3",
+    "express": "^4.17.1",
     "history": "4.7.2",
     "path-to-regexp": "^2.2.1",
     "query-string": "^6.1.0",
@@ -30,4 +31,5 @@
     "redbox-react": "^1.4.3",
     "roadhog": "^2.0.0"
   }
+  
 }

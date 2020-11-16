@@ -16,6 +16,7 @@ class Test1 extends React.Component {
   }
   add=()=>{
     // 这里面可以直接提交action  最好把命名空间加上  这样不会产生action.type的冲突
+    // 展示组件本身也能拿到dispatch
     this.props.dispatch({type:'num/add',data:123})
   }
   sync=()=>{
